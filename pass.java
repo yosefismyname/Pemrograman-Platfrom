@@ -20,7 +20,6 @@ public class enkripsiGenerator {
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
-
         String hasil = encryptedpassword;
         return hasil;
     }
