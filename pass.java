@@ -3,6 +3,7 @@ public class enkripsiGenerator {
     public static String enkripsiGenerator(String data) {
 
         String encryptedpassword = null;
+        
         try {
 
             MessageDigest m = MessageDigest.getInstance("MD5");
@@ -20,7 +21,7 @@ public class enkripsiGenerator {
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
-        
+
         String hasil = encryptedpassword;
         return hasil;
     }
